@@ -33,12 +33,12 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
     
-    - name: Get version and version code
-      uses: xom9ikk/version-by-tag@v1
-      id: version_by_tag
-      with:
-        path: ./
-        isUseGithubRunNumber: false 
+    #- name: Get version and version code
+    #  uses: xom9ikk/version-by-tag@v1
+    #  id: version_by_tag
+    #  with:
+    #    path: ./
+    #    isUseGithubRunNumber: false 
     
     - name: Docker meta
       id: meta
