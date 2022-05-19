@@ -26,4 +26,4 @@ COPY ./src/*.py ./
 ENV PATH=/root/.local:$PATH
 
 # command to run on container start
-CMD [ "python", "./airthings-mqtt-ha.py" ]
+CMD [ "python", "airthings-mqtt-ha.py" ]
